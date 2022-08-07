@@ -79,6 +79,29 @@ hr {
 }
 
 /* ----------- MAIN ----------- */
+h1 {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+  color: #FF99C9;
+}
+
+.uno {
+  background-color: #FF99C9;
+  color: white;
+}
+
+.dos {
+  background-color: red;
+  color: white;
+}
+
+h3 {
+  text-align: center;
+  padding: 2rem;
+  margin: 0.5rem;
+}
+
 /* Carousel de novedades Index */
 .carousel-inner img {
   max-height: 700px;

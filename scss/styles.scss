@@ -89,6 +89,45 @@ hr {
 
 /* ----------- MAIN ----------- */
 
+$estilos: (
+color: #ffffff,
+centro: center
+);
+
+h1 {
+background-color: map-get($estilos, color);
+text-align: map-get($estilos, centro);
+padding: 1rem;
+color: #FF99C9;
+}
+
+$estilos: (
+rosa: #FF99C9,
+rojo: red,
+);
+
+@mixin fondo($color){
+@if map-has-key($estilos, $color){
+    background-color: map-get($estilos, $color);
+} 
+}
+
+.uno{
+@include fondo(rosa);
+color: white;
+}
+.dos{
+@include fondo(rojo);
+color: white;
+}
+
+h3 {
+text-align: center;
+padding: 2rem;
+margin: .5rem;
+}
+
+
 /* Carousel de novedades Index */
 
 .carousel-inner img {
