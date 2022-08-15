@@ -1,0 +1,17 @@
+.navbar {
+    background-color: #FF99C9;
+        .navbar-nav {
+            .nav-link {
+            background-color: FF99C9;
+            color: FF99C9;
+            border: 1p solid FF99C9;
+            border-radius: 40px;
+            gap: 1px;
+
+                &:hover {
+                    background-color: #fff;
+                }
+
+            }
+        }
+}

@@ -3,28 +3,10 @@
   padding: 0;
 }
 
-/* Body */
 body {
   background-color: #fff;
 }
 
-/* ----------- HEADER ----------- */
-.navbar {
-  background-color: #FF99C9;
-}
-.navbar .navbar-nav .nav-link {
-  background-color: FF99C9;
-  color: FF99C9;
-  border: 1p solid FF99C9;
-  border-radius: 40px;
-  gap: 1px;
-}
-.navbar .navbar-nav .nav-link:hover {
-  background-color: #fff;
-}
-
-/* Arreglos generales del Boddy */
-/* Textos */
 h1 {
   align-items: center;
   text-decoration: solid;
@@ -78,7 +60,20 @@ hr {
   font-size: 2px;
 }
 
-/* ----------- MAIN ----------- */
+.navbar {
+  background-color: #FF99C9;
+}
+.navbar .navbar-nav .nav-link {
+  background-color: FF99C9;
+  color: FF99C9;
+  border: 1p solid FF99C9;
+  border-radius: 40px;
+  gap: 1px;
+}
+.navbar .navbar-nav .nav-link:hover {
+  background-color: #fff;
+}
+
 h1 {
   background-color: #ffffff;
   text-align: center;
@@ -92,7 +87,7 @@ h1 {
 }
 
 .dos {
-  background-color: red;
+  background-color: #f871b0;
   color: white;
 }
 
@@ -178,7 +173,6 @@ form p {
   max-height: 220px;
 }
 
-/* ----------- FOOTER ----------- */
 footer {
   color: #FF99C9;
 }
